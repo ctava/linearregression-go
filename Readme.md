@@ -1,6 +1,6 @@
 ![IMAGE](https://raw.github.com/ctava/linearregression-go/master/Data-regression.png)
 
-0. Install Golang, git, setup `$GOPATH`, and `PATH=$PATH:$GOPATH/bin`
+0. [Install Golang](https://golang.org/doc/install), git, setup `$GOPATH`, and `PATH=$PATH:$GOPATH/bin`
 1. go gets
    ```
    go get github.com/gocarina/gocsv
