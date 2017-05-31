@@ -9,11 +9,20 @@
    go get github.com/gonum/plot/plotutil
    go get github.com/gonum/plot/vg
    go get github.com/pkg/errors
-   go get github.com/sajari/regression```
+   go get github.com/sajari/regression
+   ```
 2. run the source
 `go run main.go`
+3. review the results
+```
+N = 1551
+Variance observed = 5.138608046119863e+06
+Variance Predicted = 2.623877776398886e+06
+R2 = 0.5106203378131093
 
-
+Bobs Data (int=2017): 4401
+Bobs Data (int=2018) Prediction: 5707
+```
 Notes:
 This script predicts the amount of data that will be created based on fitting a sample data set to a linear regression model.
 
